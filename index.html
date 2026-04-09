@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FederACCIÓN</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #0033a0, #007f5f);
+    color: white;
+}
+
+nav {
+    background: #111;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #00ffae;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.frase {
+    font-size: 22px;
+    color: #00ffae;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.subtitulo {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 60px;
+    font-size: 32px;
+    font-weight: 600;
+    border-bottom: 2px solid #00ffae;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.foto {
+    text-align: center;
+}
+
+.foto img {
+    width: 350px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.foto img:hover {
+    transform: scale(1.05);
+}
+
+.boton {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.boton a {
+    font-family: 'Poppins', sans-serif;
+    background: #00ffae;
+    color: black;
+    padding: 15px 35px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.boton a:hover {
+    background: white;
+}
+
+.boton-imagen {
+    margin-top: 15px;
+}
+
+.boton-imagen a {
+    background: #00ffae;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.boton-imagen a:hover {
+    background: white;
+    transform: scale(1.05);
+}
+
+.redes {
+    margin-top: 60px;
+}
+
+.social-links a {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    margin: 10px;
+    background: #00ffae;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.social-links a:hover {
+    background: white;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#actividades">Actividades</a>
+    <a href="#galeria">Galería</a>
+    <a href="#redes">Redes</a>
+</nav>
+
+<div class="container">
+
+<section id="inicio">
+    <h1 class="titulo">FederACCIÓN</h1>
+    <p class="frase">"Rompemos el modo spa"</p>
+
+    <div class="logo">
+        <img src="logo.png" alt="Logo">
+    </div>
+</section>
+
+<section id="actividades">
+    <h2 class="subtitulo">Actividades</h2>
+
+    <div class="contenido">
+
+        <div class="foto">
+            <img src="parqueacuatico.jpg" alt="Parque acuático">
+            <div class="boton-imagen">
+                <a href="https://www.termasfederacion.com/parque-acuatico/" target="_blank">
+                    Parque Termal
+                </a>
+            </div>
+        </div>
+
+        <div class="foto">
+            <img src="colectivo.jpg" alt="Viejo Expreso">
+            <div class="boton-imagen">
+                <a href="https://www.instagram.com/viejoexpreso.ok?igsh=MTc1NGs5MTliOXdwdg==" target="_blank">
+                    Viejo Expreso
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="galeria">
+    <h2 class="subtitulo">Más experiencias</h2>
+
+    <div class="contenido">
+        <div class="foto">
+            <img src="actividad.jpg" alt="Nueva actividad">
+            <div class="boton-imagen">
+                <a href="https://www.concordia.gob.ar/node/12818" target="_blank">
+                    Ver actividad
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="redes" class="redes">
+    <h2 class="subtitulo">Redes sociales</h2>
+
+    <div class="social-links">
+        <a href="https://www.instagram.com/federaccion_?igsh=MTYzaHB4NDkycWVtYg==" target="_blank">
+            Instagram
+        </a>
+
+        <a href="https://www.tiktok.com/@federaccion?_r=1&_t=ZS-95NC7K33Pt6" target="_blank">
+            TikTok
+        </a>
+    </div>
+</section>
+
+</div>
+
+</body>
+</html>
